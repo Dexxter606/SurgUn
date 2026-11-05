@@ -4,7 +4,7 @@ python - <<'PY'
 from huggingface_hub import login
 import os
 # Prefer: export HF_TOKEN=... and use login(token=os.environ["HF_TOKEN"])
-login(token='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')
+login(token='')
 print("logged_in")
 PY
 
